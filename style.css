@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #f8f8f8; /* css variable */
+}
+
+body{
+    background: var(--white);
+    font-family: 'Poppins', sans-serif;
+    color: #0f0f0f;
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 800px)  /* 480px */
+and (-webkit-min-device-pixel-ratio: 2) {
+.top{
+    padding: 7% 5% 7% 7%;
+}
+.top h4{
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.top .and{
+    font-size: 30px;
+    color: #1F75FE;
+}
+.top span{
+    color: #1F75FE;
+    font-size: 45px;
+}
+.top h1{
+    font-size: 25px;
+}
+.top .contact-btn{
+    margin-top: 25px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    background: #1F75FE;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    margin-right: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top .button{
+    display: flex;
+}
+.top .view-btn{
+    margin-top: 10px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    background: #f7e8e8;
+    color: #282C35;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2px;
+    }
+    .top img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .middle{
+        padding: 10% 5% 5% 5%;
+    }
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 60px;
+    }
+    .testimonial-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 50%;
+        margin-right: 10px;
+    }
+    .pic1{
+        width: 100px;
+        border-radius: 50%;
+    }
+    .testimonial-right{
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 27px;
+        border-left: 4px solid #1F75FE;
+        height: 80px;
+        padding-left: 20px;
+        margin: 20px 0 20px 0;
+    }
+    .ios-android{
+        background: rgba(233, 65, 4, 0.689);
+        margin-top: 25px;
+        padding: 0 5% 5% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .pic2{
+        width: 250px;
+        border-radius: 15px;
+        padding-top: 20px;
+    }
+    .pic3{
+        margin: 60px 0 20px 0;
+        width: 100%;
+        background: #4B0082;
+        padding: 30px;
+        border-radius: 20px;
+    }
+    .third{
+        padding: 10% 6% 0 6%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50px 0 0 0;
+    }
+    .diff-color{
+        color: #1F75FE;
+        font-size: 30px;
+    }
+    .logo-text{
+        display: flex;
+        margin-top: 45px;
+        margin-bottom: 55px;
+        color: #002244;
+        padding: 10px;
+        text-align: left;
+        border-left: 2px solid #1F75FE;
+        height: 80px;
+        font-weight: 200;
+        font-family: 'Roboto';
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+    .logo-text h4{
+        margin-left: 10px;
+    }
+    .name-founder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 6%;
+        margin-top: 5px;
+        font-family: Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 20px;
+    }
+    .founder-logo{
+        width: 160px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
